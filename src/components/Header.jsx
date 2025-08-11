@@ -6,7 +6,6 @@ const Header = () => (
       <h1 className="text-xl font-bold">Jay Prajapati</h1>
       <nav className="space-x-4">
         <a href="#about" className="hover:text-blue-400">About</a>
-        <a href="#Skill" className="hover:text-blue-400">Skill</a>
         <a href="#projects" className="hover:text-blue-400">Projects</a>
         <a href="#contact" className="hover:text-blue-400">Contact</a>
       </nav>
@@ -15,6 +14,7 @@ const Header = () => (
 );
 
 export default Header;
+
 
 
 
