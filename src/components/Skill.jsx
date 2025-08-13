@@ -15,8 +15,7 @@ const skills = [
   { name: 'Git', icon: <FaGitAlt className="text-red-500" /> },
   { name: 'Postman', icon: <SiPostman className="text-orange-300" /> },
   {name:'MySQL', icon: <SiMysql  className="text-blue-500" /> },
-  {name:'MySQL', icon: <SiMysql  className="text-blue-500" /> }
- 
+  
 ];
 
 const Skills = () => (
@@ -36,3 +35,4 @@ const Skills = () => (
 );
 
 export default Skills;
+
