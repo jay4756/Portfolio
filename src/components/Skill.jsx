@@ -3,7 +3,7 @@ import { FaReact, FaJava, FaPython, FaHtml5, FaCss3Alt, FaBootstrap, FaGitAlt } 
 import { SiSpringboot, SiTailwindcss, SiPostman, SiMysql, SiNumpy, SiPandas  } from 'react-icons/si';
 
 
-const skills = [
+const skill = [
   { name: 'React.js', icon: <FaReact className="text-cyan-400" /> },
   { name: 'Java', icon: <FaJava className="text-orange-400" /> },
   { name: 'Spring Boot', icon: <SiSpringboot className="text-green-500" /> },
@@ -20,12 +20,12 @@ const skills = [
   
 ];
 
-const Skills = () => (
-  <section id="skills" className="mb-12">
+const Skill = () => (
+  <section id="skill" className="mb-12">
     <h2 className="text-2xl font-semibold mb-4">Skills</h2>
     <div className="bg-gray-800 p-6 rounded-lg shadow-lg">
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6">
-        {skills.map(({ name, icon }) => (
+        {skill.map(({ name, icon }) => (
           <div key={name} className="flex items-center space-x-3">
             <div className="text-2xl">{icon}</div>
             <span className="text-gray-300">{name}</span>
@@ -36,6 +36,7 @@ const Skills = () => (
   </section>
 );
 
-export default Skills;
+export default Skill;
+
 
 
