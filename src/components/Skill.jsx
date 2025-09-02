@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaReact, FaJava, FaPython, FaHtml5, FaCss3Alt, FaBootstrap, FaGitAlt } from 'react-icons/fa';
-import { SiSpringboot, SiTailwindcss, SiPostman, SiMysql  } from 'react-icons/si';
+import { SiSpringboot, SiTailwindcss, SiPostman, SiMysql, SiNumpy, SiPandas  } from 'react-icons/si';
 
 
 const skills = [
@@ -15,6 +15,8 @@ const skills = [
   { name: 'Git', icon: <FaGitAlt className="text-red-500" /> },
   { name: 'Postman', icon: <SiPostman className="text-orange-300" /> },
   {name:'MySQL', icon: <SiMysql  className="text-blue-500" /> },
+   {name:'pandas', icon: <SiPandas  className="text-orange-500" /> },
+   {name:'numpy', icon:<SiNumpy   className="text-blue-700" /> }
   
 ];
 
@@ -35,4 +37,5 @@ const Skills = () => (
 );
 
 export default Skills;
+
 
