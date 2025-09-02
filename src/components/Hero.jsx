@@ -9,7 +9,7 @@ const Hero = () => {
       <div className="text-center px-4">
         <h1 className="text-4xl md:text-6xl font-bold mb-4">Hi, I'm Jay Prajapati 👋</h1>
         <p className="text-lg md:text-xl mb-6">
-          Full-Stack Developer | Java Developer 
+         Java Full-Stack Developer | Web Developer | Data Scientist  
         </p>
         <a
           href="/resume.pdf"
@@ -24,3 +24,4 @@ const Hero = () => {
 };
 
 export default Hero;
+
