@@ -19,15 +19,16 @@ const Projects = () => (
         <p className="text-gray-300">React , java , Spring Boot RESTful APIs.</p>
       </div>
        <div className="bg-gray-800 p-4 rounded-lg shadow">
-        <h3 className="text-xl font-bold">Rakhi </h3>
-        <p className="text-gray-300">HTML , Css , JavaScript.</p>
+        <h3 className="text-xl font-bold">Course Management </h3>
+        <p className="text-gray-300">Java, Spring Boot , Spring Data JPA, Reactjs, MySQL.</p>
       </div>
        <div className="bg-gray-800 p-4 rounded-lg shadow">
-        <h3 className="text-xl font-bold">login/Registor Form</h3>
-        <p className="text-gray-300">HTML , Css , JavaScript.</p>
+        <h3 className="text-xl font-bold">BrainBoost Game</h3>
+        <p className="text-gray-300">Java, Spring Boot , Spring Data JPA, Reactjs, MySQL.</p>
       </div>
     </div>
   </section>
 );
 
 export default Projects;
+
