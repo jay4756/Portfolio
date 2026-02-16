@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <section className="flex items-center justify-center h-screen bg-gradient-to-r from-slate-500 via-slate-400 to-blue-950 text-white">
         <div className='flex justify-center items-center mb-8 text-xl '>
-            <img src="/bio.jpg" alt="pic" className='flex ml-5  rounded-full h-46 w-56 ' />
+            <img src="/bio.jpeg" alt="pic" className='flex ml-5  rounded-full h-46 w-56 ' />
         </div>
       <div className="text-center px-4">
         <h1 className="text-4xl md:text-6xl font-bold mb-4">Hi, I'm Jay Prajapati 👋</h1>
@@ -24,5 +24,6 @@ const Hero = () => {
 };
 
 export default Hero;
+
 
 
