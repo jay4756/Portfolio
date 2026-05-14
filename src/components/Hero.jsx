@@ -12,7 +12,7 @@ const Hero = () => {
          Java Full-Stack Developer | Web Developer | Data Scientist  
         </p>
         <a
-          href="/Resume.pdf"
+          href="/jay.pdf"
           download
           className="inline-block bg-cyan-500 hover:bg-cyan-600 text-white font-semibold py-3 px-6 rounded-lg transition duration-300"
         >
