@@ -9,10 +9,10 @@ const Hero = () => {
       <div className="text-center px-4">
         <h1 className="text-4xl md:text-6xl font-bold mb-4">Hi, I'm Jay Prajapati 👋</h1>
         <p className="text-lg md:text-xl mb-6">
-         Java Full-Stack Developer | Web Developer | Data Scientist  
+         Java Full-Stack Developer | Devops Engineer  
         </p>
         <a
-          href="/jay_prajapati_cv.pdf"
+          href="/Jay_Prajapati_cv.pdf"
           download
           className="inline-block bg-cyan-500 hover:bg-cyan-600 text-white font-semibold py-3 px-6 rounded-lg transition duration-300"
         >
